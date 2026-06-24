@@ -171,7 +171,7 @@ curl http://localhost:5000/api/health
 }
 ```
 
-### POST `/api/analyze/octocat`
+### POST `/api/analyze/Ramagiri-Ranesh`
 
 ```json
 {
@@ -179,32 +179,35 @@ curl http://localhost:5000/api/health
   "message": "GitHub profile analyzed successfully",
   "data": {
     "profile": {
-      "github_id": 583231,
-      "username": "octocat",
-      "name": "The Octocat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/583231?v=4",
-      "profile_url": "https://github.com/octocat",
+      "github_id": 118656281,
+      "username": "Ramagiri-Ranesh",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/118656281?v=4",
+      "profile_url": "https://github.com/Ramagiri-Ranesh",
       "bio": null,
-      "company": "@github",
-      "location": "San Francisco",
-      "public_repos": 8,
-      "followers": 18000,
-      "following": 9
+      "company": null,
+      "location": null,
+      "public_repos": 21,
+      "followers": 0,
+      "following": 0
     },
     "insights": {
-      "totalReposAnalyzed": 8,
-      "totalStars": 12000,
-      "totalForks": 5000,
-      "averageStars": 1500,
-      "topLanguage": "Ruby",
+      "totalReposAnalyzed": 21,
+      "totalStars": 0,
+      "totalForks": 0,
+      "averageStars": 0,
+      "topLanguage": "JavaScript",
       "languageBreakdown": {
-        "Ruby": 4,
-        "JavaScript": 2,
-        "CSS": 1
+        "JavaScript": 9,
+        "TypeScript": 3,
+        "EJS": 1,
+        "HTML": 5,
+        "Jupyter Notebook": 1,
+        "Python": 1
       },
-      "mostStarredRepo": "Spoon-Knife",
-      "latestRepoName": "hello-world",
-      "latestRepoPushedAt": "2025-01-10T12:30:00Z"
+      "mostStarredRepo": "github-profile-analyzer-api",
+      "latestRepoName": "github-profile-analyzer-api",
+      "latestRepoPushedAt": "2026-06-24T17:49:57Z"
     }
   }
 }
@@ -219,62 +222,65 @@ curl http://localhost:5000/api/health
   "data": [
     {
       "id": 1,
-      "username": "octocat",
-      "name": "The Octocat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/583231?v=4",
-      "profile_url": "https://github.com/octocat",
-      "public_repos": 8,
-      "followers": 18000,
-      "following_count": 9,
-      "total_repos_analyzed": 8,
-      "total_stars": 12000,
-      "total_forks": 5000,
-      "average_stars": "1500.00",
-      "top_language": "Ruby",
-      "most_starred_repo": "Spoon-Knife",
-      "analyzed_at": "2026-06-24T16:45:00.000Z"
+      "username": "Ramagiri-Ranesh",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/118656281?v=4",
+      "profile_url": "https://github.com/Ramagiri-Ranesh",
+      "public_repos": 21,
+      "followers": 0,
+      "following_count": 0,
+      "total_repos_analyzed": 21,
+      "total_stars": 0,
+      "total_forks": 0,
+      "average_stars": "0.00",
+      "top_language": "JavaScript",
+      "most_starred_repo": "github-profile-analyzer-api",
+      "analyzed_at": "2026-06-24T18:02:39.000Z"
     }
   ]
 }
 ```
 
-### GET `/api/profiles/octocat`
+### GET `/api/profiles/Ramagiri-Ranesh`
 
 ```json
 {
   "success": true,
   "data": {
     "id": 1,
-    "github_id": 583231,
-    "username": "octocat",
-    "name": "The Octocat",
-    "avatar_url": "https://avatars.githubusercontent.com/u/583231?v=4",
-    "profile_url": "https://github.com/octocat",
+    "github_id": 118656281,
+    "username": "Ramagiri-Ranesh",
+    "name": null,
+    "avatar_url": "https://avatars.githubusercontent.com/u/118656281?v=4",
+    "profile_url": "https://github.com/Ramagiri-Ranesh",
     "bio": null,
-    "company": "@github",
-    "location": "San Francisco",
-    "blog": "https://github.blog",
-    "public_repos": 8,
-    "followers": 18000,
-    "following_count": 9,
-    "public_gists": 8,
-    "account_created_at": "2011-01-25T18:44:36.000Z",
-    "total_repos_analyzed": 8,
-    "total_stars": 12000,
-    "total_forks": 5000,
-    "average_stars": "1500.00",
-    "top_language": "Ruby",
+    "company": null,
+    "location": null,
+    "blog": "",
+    "public_repos": 21,
+    "followers": 0,
+    "following_count": 0,
+    "public_gists": 0,
+    "account_created_at": "2022-11-20T08:02:07.000Z",
+    "total_repos_analyzed": 21,
+    "total_stars": 0,
+    "total_forks": 0,
+    "average_stars": "0.00",
+    "top_language": "JavaScript",
     "language_breakdown": {
-      "Ruby": 4,
-      "JavaScript": 2,
-      "CSS": 1
+      "EJS": 1,
+      "HTML": 5,
+      "Python": 1,
+      "JavaScript": 9,
+      "TypeScript": 3,
+      "Jupyter Notebook": 1
     },
-    "most_starred_repo": "Spoon-Knife",
-    "latest_repo_name": "hello-world",
-    "latest_repo_pushed_at": "2025-01-10T12:30:00.000Z",
-    "analyzed_at": "2026-06-24T16:45:00.000Z",
-    "created_at": "2026-06-24T16:45:00.000Z",
-    "updated_at": "2026-06-24T16:45:00.000Z"
+    "most_starred_repo": "github-profile-analyzer-api",
+    "latest_repo_name": "github-profile-analyzer-api",
+    "latest_repo_pushed_at": "2026-06-24T17:49:57.000Z",
+    "analyzed_at": "2026-06-24T18:02:39.000Z",
+    "created_at": "2026-06-24T17:52:48.000Z",
+    "updated_at": "2026-06-24T18:02:39.000Z"
   }
 }
 ```
@@ -290,18 +296,14 @@ curl http://localhost:5000/api/health
 
 ## Deployment URL
 
-Not deployed yet. Add the deployed API URL here after deployment.
-
 ```text
-https://your-deployment-url.com
+https://github-profile-analyzer-api-m4ad.onrender.com
 ```
 
 ## GitHub Repository Link
 
-Repository link is not configured in this local folder yet. Add it here after pushing the project to GitHub.
-
 ```text
-https://github.com/your-username/github-profile-analyzer-api
+https://github.com/Ramagiri-Ranesh/github-profile-analyzer-api
 ```
 
 ## Postman Collection
